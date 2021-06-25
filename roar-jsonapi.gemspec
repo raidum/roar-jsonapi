@@ -19,9 +19,9 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '>= 1.9.3'
 
-  s.add_runtime_dependency 'roar', '~> 1.1'
+  s.add_runtime_dependency 'roar'
 
-  s.add_runtime_dependency 'representable', '~> 3.0', '>= 3.0.3'
+  s.add_runtime_dependency 'representable', '~> 3.1', '>= 3.1.1'
 
   s.add_development_dependency 'rake', '>= 0.10.1'
   s.add_development_dependency 'minitest', '>= 5.10'
